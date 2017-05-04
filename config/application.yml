@@ -1,0 +1,13 @@
+defaults: &defaults
+
+test:
+  <<: *defaults
+
+staging:
+  <<: *defaults
+
+development:
+  <<: *defaults
+  region: 'cn-north-1'
+  aws_ak: 'AKIAPABL6PZQO3NCPW7A'
+  aws_sk: 'IO8Ho66DnOIPgEEVZ3B5/nbAHg36776ZVn1bIPDS'

@@ -1,0 +1,5 @@
+{
+  "name": "dynamodb-rails",
+  "private": true,
+  "dependencies": {}
+}
